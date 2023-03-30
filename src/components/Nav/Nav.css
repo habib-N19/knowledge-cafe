@@ -1,0 +1,29 @@
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+.heading{
+    color: rgba(17, 17, 17, 1);
+    /* padding-top: -22px; */
+    /* margin-top: 0; */
+}
+.nav-items a{
+    text-decoration: none;
+    color: rgba(17, 17, 17, 1);
+    font-weight: 700;
+    padding: 20px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.nav-items a:hover {
+    color: blueviolet;
+    background-color: rgba(203, 141, 141, 0.05);
+}
+.hr-line{
+    width: 90%;
+    border: 1px solid rgba(17, 17, 17, 0.15);
+}
