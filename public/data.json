@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "author_name": "John Doe",
+    "blog_title": "The Importance of Learning a New Language",
+    "images": ["https://example.com/image1.jpg", "https://example.com/image2.jpg"],
+    "author_image": "https://img.freepik.com/premium-photo/handsome-young-businessman-shirt-eyeglasses_85574-6228.jpg?w=740",
+    "blog_cover_image": "https://img.freepik.com/free-vector/code-typing-concept-illustration_114360-3581.jpg?w=740&t=st=1680206306~exp=1680206906~hmac=80cf8b31c878692d328a144fa411773751c55ea3e4507709c6765b17bac24fae",
+    "read_time": "12 minutes",
+    "publish_date": "Mar 25, 2023 (6 days ago)"
+  },
+  {
+    "id": 2,
+    "author_name": "Jane Smith",
+    "blog_title": "10 Tips for Productivity",
+    "images": ["https://example.com/image3.jpg", "https://example.com/image4.jpg"],
+    "author_image": "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=996&t=st=1680206395~exp=1680206995~hmac=1f6beaf3f64c9d8f9a7851eccc614670e00ad1219d4652b5020fb7c643121217",
+    "blog_cover_image": "https://img.freepik.com/free-vector/programmer-work-with-working-day-symbols-flat-illustration_1284-60322.jpg?w=1060&t=st=1680206299~exp=1680206899~hmac=f846117deedf76c6156c6c46ce5f62f5a3b69bfa7d8f551c2d4e7f7468c58900",
+    "read_time": "7 minutes",
+    "publish_date": "Mar 20, 2023 (11 days ago)"
+  },
+  {
+    "id": 3,
+    "author_name": "Bob Johnson",
+    "blog_title": "The Future of AI in Healthcare",
+    "images": ["https://example.com/image5.jpg", "https://example.com/image6.jpg"],
+    "author_image": "https://img.freepik.com/free-photo/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-wearing-casual-clothes_176532-10257.jpg?w=996&t=st=1680206399~exp=1680206999~hmac=afab132deb09bc3f117fd63c9bd9c525e61c08f6edd5c8d7ba8c3e5ac7eabeaf",
+    "blog_cover_image": "https://img.freepik.com/premium-photo/programming-code-abstract-technology-background-software-developer-computer-script_34663-31.jpg?w=996",
+    "read_time": "20 minutes",
+    "publish_date": "Mar 15, 2023 (16 days ago)"
+  },
+  {
+    "id": 4,
+    "author_name": "Sarah Lee",
+    "blog_title": "How to Improve Your Communication Skills",
+    "images": ["https://example.com/image7.jpg", "https://example.com/image8.jpg"],
+    "author_image": "https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?w=996&t=st=1680206403~exp=1680207003~hmac=359943389d26ef37c7fdf945913dab241392cc4072fd5925d27fdde306b6ef76",
+    "blog_cover_image": "https://img.freepik.com/free-vector/coding-workshop-concept-illustration_114360-8192.jpg?w=996&t=st=1680206296~exp=1680206896~hmac=1224de868721978ca66044763565ea8c45377af90a34b4d8eab9a010d87b4df4",
+    "read_time": "15 minutes",
+    "publish_date": "Mar 10, 2023 (21 days ago)"
+  }
+]
