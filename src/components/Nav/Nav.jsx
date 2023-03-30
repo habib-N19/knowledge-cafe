@@ -1,7 +1,7 @@
 import React from 'react'
 import './Nav.css'
 
-const Nav = () => {
+const Nav = props => {
   return (
     <>
       <div className='nav-container'>
@@ -11,8 +11,11 @@ const Nav = () => {
           <a href='./about'>About</a>
           <a href='./login'>Login</a>
         </div>
-        <div>
-          <img src='' alt='profile-image' />
+        <div className='nav-img-container'>
+          <img
+            src='https://img.freepik.com/free-photo/close-up-young-successful-man-smiling-camera-standing-casual-outfit-against-blue-background_1258-66609.jpg?w=996&t=st=1680206403~exp=1680207003~hmac=359943389d26ef37c7fdf945913dab241392cc4072fd5925d27fdde306b6ef76'
+            alt='profile-image'
+          />
         </div>
       </div>
       <hr className='hr-line' />
