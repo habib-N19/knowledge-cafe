@@ -1,15 +1,17 @@
-.blog-container{
+.blog-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
     width: 90%;
     margin: 0 auto;
 
 }
-.blog-card-container{
-    border: 1px solid red;
-   
+
+.blog-card-container {
+    /* border: 1px solid red; */
+
 }
-.blog-side-container{
-    border: 1px solid black;
-   
+
+.blog-side-container {
+    /* border: 1px solid black; */
+
 }
