@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import './BlogMain.css'
 import Blog from '../Blog/Blog'
-const BlogMain = ({ handleReadTime }) => {
+import SideCard from '../SideCard/SideCard'
+const BlogMain = ({ handleReadTime, readTime }) => {
   const [userData, setUserData] = useState([])
   useEffect(() => {
     fetch('data.json')
@@ -19,7 +20,8 @@ const BlogMain = ({ handleReadTime }) => {
           ></Blog>
         ))}
       </div>
-      <div className='blog-side-container'>Blog2</div>
+      {/* <div className='blog-side-container'></div> */}
+      <SideCard readTime={readTime}></SideCard>
     </div>
   )
 }

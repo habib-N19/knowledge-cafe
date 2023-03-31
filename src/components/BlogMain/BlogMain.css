@@ -1,6 +1,6 @@
 .blog-container {
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3.7fr 1.3fr;
     width: 90%;
     margin: 0 auto;
 

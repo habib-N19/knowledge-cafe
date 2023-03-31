@@ -37,8 +37,8 @@ const Blog = ({ user, handleReadTime }) => {
         {/* side read time */}
         <div>
           <p className='publish-date'>
-            {user.read_time}
-            <span>
+            {user.read_time} minutes
+            <span className='bookmark-icon'>
               <FontAwesomeIcon icon={faBookmark} />
             </span>
           </p>
