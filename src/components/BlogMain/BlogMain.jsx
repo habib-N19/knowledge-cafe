@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import './BlogMain.css'
 import Blog from '../Blog/Blog'
 import SideCard from '../SideCard/SideCard'
-const BlogMain = ({ handleReadTime, readTime }) => {
+const BlogMain = ({ handleReadTime, readTime, toggleBookmark }) => {
   const [userData, setUserData] = useState([])
   useEffect(() => {
     fetch('data.json')

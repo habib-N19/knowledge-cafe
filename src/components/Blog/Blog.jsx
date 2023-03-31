@@ -1,16 +1,6 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import './Blog.css'
-const Blog = ({ user, handleReadTime }) => {
-  //   const {
-  //     author_name,
-  //     blog_title,
-  //     author_image,
-  //     blog_cover_image,
-  //     read_time,
-  //     publish_date
-  //   } = props.user
+const Blog = ({ user, handleReadTime, toggleBookmark }) => {
   return (
     <div className='blog-card-container'>
       <div className='banner-img'>
@@ -36,12 +26,7 @@ const Blog = ({ user, handleReadTime }) => {
         </div>
         {/* side read time */}
         <div>
-          <p className='publish-date'>
-            {user.read_time} minutes
-            <span className='bookmark-icon'>
-              <FontAwesomeIcon icon={faBookmark} />
-            </span>
-          </p>
+          <p className='publish-date'>{user.read_time} minutes</p>
         </div>
       </div>
       {/* title */}
