@@ -4,6 +4,7 @@ import './App.css'
 import BlogMain from './components/BlogMain/BlogMain'
 import Nav from './components/Nav/Nav'
 import { ToastContainer } from 'react-toastify'
+import BlogQuestions from './components/BlogQuestions/BlogQuestions'
 
 function App () {
   // const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App () {
       <Nav></Nav>
       <BlogMain handleReadTime={handleReadTime} readTime={readTime}></BlogMain>
       <ToastContainer />
+      <BlogQuestions></BlogQuestions>
     </div>
   )
 }

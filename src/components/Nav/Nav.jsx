@@ -3,13 +3,19 @@ import './Nav.css'
 
 const Nav = props => {
   return (
-    <>
+    <div div className='nav-hr-container'>
       <div className='nav-container'>
         <h1 className='heading'>Knowledge Cafe</h1>
         <div className='nav-items'>
-          <a href='./blog'>Blog</a>
-          <a href='./about'>About</a>
-          <a href='./login'>Login</a>
+          <a className='nav-item' href='./blog'>
+            Blog
+          </a>
+          <a className='nav-item' href='./about'>
+            About
+          </a>
+          <a className='nav-item' href='./login'>
+            Login
+          </a>
         </div>
         <div className='nav-img-container'>
           <img
@@ -19,7 +25,7 @@ const Nav = props => {
         </div>
       </div>
       <hr className='hr-line' />
-    </>
+    </div>
   )
 }
 
