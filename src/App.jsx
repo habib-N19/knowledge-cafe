@@ -22,7 +22,12 @@ function App () {
   return (
     <div className='App'>
       <Nav></Nav>
-      <BlogMain handleReadTime={handleReadTime} readTime={readTime}></BlogMain>
+      <BlogMain
+        handleReadTime={handleReadTime}
+        readTime={readTime}
+        // toggleBookmark={toggleBookmark}
+        // setBookmarked={setBookmarked}
+      ></BlogMain>
     </div>
   )
 }

@@ -7,6 +7,33 @@
     text-align: center;
     background: rgba(17, 17, 17, 0.05);
     border-radius: 8px;
+    margin-bottom: 30px;
+
+
+}
+
+.side-cards-container {
     position: sticky;
     top: 0;
+
+    color: #111111;
+}
+
+.bookmark-count {
+    text-align: center;
+}
+
+.bookmark-container {
+    background: rgba(17, 17, 17, 0.05);
+    border-radius: 8px;
+    padding: 20px;
+
+}
+
+.eachBookmark-container {
+    background-color: #ffffff;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 600;
 }

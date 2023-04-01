@@ -1,6 +1,7 @@
 import React from 'react'
 import './Blog.css'
-const Blog = ({ user, handleReadTime, toggleBookmark }) => {
+import Bookmark from '../Bookmark/Bookmark'
+const Blog = ({ user, handleReadTime, toggleBookmark, setBookmarked }) => {
   return (
     <div className='blog-card-container'>
       <div className='banner-img'>
@@ -27,6 +28,7 @@ const Blog = ({ user, handleReadTime, toggleBookmark }) => {
         {/* side read time */}
         <div>
           <p className='publish-date'>{user.read_time} minutes</p>
+          <Bookmark toggleBookmark={toggleBookmark} user={user}></Bookmark>
         </div>
       </div>
       {/* title */}
