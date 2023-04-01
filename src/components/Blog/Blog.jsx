@@ -1,7 +1,7 @@
 import React from 'react'
 import './Blog.css'
 import Bookmark from '../Bookmark/Bookmark'
-const Blog = ({ user, handleReadTime, toggleBookmark, setBookmarked }) => {
+const Blog = ({ user, handleReadTime, toggleBookmark, isBookmarked }) => {
   return (
     <div className='blog-card-container'>
       <div className='banner-img'>

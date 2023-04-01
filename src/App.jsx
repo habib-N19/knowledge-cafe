@@ -3,9 +3,10 @@ import { useState } from 'react'
 import './App.css'
 import BlogMain from './components/BlogMain/BlogMain'
 import Nav from './components/Nav/Nav'
+import { ToastContainer } from 'react-toastify'
 
 function App () {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
   const [readTime, setReadTime] = useState('')
   const handleReadTime = time => {
     const previousReadTime = JSON.parse(localStorage.getItem('readTime'))
@@ -22,12 +23,8 @@ function App () {
   return (
     <div className='App'>
       <Nav></Nav>
-      <BlogMain
-        handleReadTime={handleReadTime}
-        readTime={readTime}
-        // toggleBookmark={toggleBookmark}
-        // setBookmarked={setBookmarked}
-      ></BlogMain>
+      <BlogMain handleReadTime={handleReadTime} readTime={readTime}></BlogMain>
+      <ToastContainer />
     </div>
   )
 }
