@@ -12,6 +12,10 @@
     margin-bottom: 60px;
 }
 
+.banner-img img {
+    margin-bottom: 50px;
+}
+
 @media (max-width: 768px) {
     .banner-img {
         width: 400px;
@@ -46,6 +50,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 20px 0px;
+    margin-bottom: 20px;
 }
 
 .author-name-img-container {
@@ -69,6 +75,12 @@
     font-weight: 700;
 }
 
+.bookmark-container {
+    display: flex;
+    gap: 10px;
+    background-color: #ffffff;
+}
+
 .bookmark-icon {
     margin-left: 8px;
 }
@@ -78,5 +90,6 @@
     color: rgba(96, 71, 236, 1);
     background-color: white;
     font-weight: 700;
+    margin-bottom: 30px;
     text-decoration: underline;
 }

@@ -26,7 +26,7 @@ const Blog = ({ user, handleReadTime, toggleBookmark, isBookmarked }) => {
           </div>
         </div>
         {/* side read time */}
-        <div>
+        <div className='bookmark-container'>
           <p className='publish-date'>{user.read_time} minutes</p>
           <Bookmark toggleBookmark={toggleBookmark} user={user}></Bookmark>
         </div>
