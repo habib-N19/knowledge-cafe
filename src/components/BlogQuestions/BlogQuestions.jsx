@@ -6,12 +6,12 @@ const BlogQuestions = () => {
       <div>
         <h4>Props vs State</h4>
         <p>
-          1. Props are immutable but we can modify states with state functions{' '}
+          1. Props are immutable but we can modify states with state functions
         </p>
         <p>2. Props are read only but states aren't</p>
         <p>
-          Props are used as a data passing parameter property from one component
-          to another but states can be used inside that component
+          3.Props are used as a data passing parameter property from one
+          component to another but states can be used inside that component
         </p>
       </div>
       {/* ques 2 */}
@@ -22,7 +22,9 @@ const BlogQuestions = () => {
           value and another is function to modify that value. Besides, it takes
           a primary value as if nothing is passed then that value will be the
           primary value of that state.
-          <code>const [count, setCount] = useState([])</code>
+          <p>
+            <code>const [count, setCount] = useState([])</code>
+          </p>
           <p>
             Here we can see count is the value and we can modify that value with
             setCount function, if no value is passed onto that state then on the

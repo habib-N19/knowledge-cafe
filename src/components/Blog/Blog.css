@@ -7,9 +7,17 @@
 }
 
 .banner-img {
-    width: 400px;
-    height: 200px;
+    width: 600px;
+    height: 300px;
     margin-bottom: 60px;
+}
+
+@media (max-width: 768px) {
+    .banner-img {
+        width: 400px;
+        height: 200px;
+    }
+
 }
 
 .banner-img img {
@@ -37,7 +45,6 @@
 .author-details {
     display: flex;
     justify-content: space-between;
-    /* padding: 20px; */
     align-items: center;
 }
 
